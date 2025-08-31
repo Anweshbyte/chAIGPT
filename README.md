@@ -32,8 +32,10 @@ A Multimodal Retrieval-Augmented Generation (RAG) system that supports text, aud
 
 4. **Configure your settings**
    - Edit `config.yaml` to set your preferred model and database.
+  
+5. Generate and API key for Pinecone DB and put it in the .env file
 
-5. **Run the app**
+6. **Run the app**
    ```sh
    streamlit run app.py
    ```
