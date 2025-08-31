@@ -1,22 +1,21 @@
-# Multimodal-RAG
+# Multimodal-RAG with Ollama, and Langchain
 
 ![Demo Image](img/Untitled%20design.png)
 
 A Multimodal Retrieval-Augmented Generation (RAG) system that supports text, audio, and PDF document processing using advanced LLMs and vector databases.
 
 ## Features
-- Chat with your own documents (PDF, audio, etc.)
-- Uses Ollama for local LLM inference (DeepSeek, Mistral, Llama, etc.)
-- Vector database support (Chroma, Pinecone)
+- Chait with your own documents (PDF, audio, etc.)
+- Uses Ollama for local LLM inference
+- Vector database support (Pinecone)
 - Streamlit web interface
-- Modular and extensible codebase
 
 ## Quickstart
 
 1. **Clone the repository**
    ```sh
-   git clone <repo-url>
-   cd Multimodal-RAG
+   git clone [<repo-url>](https://github.com/Anweshbyte/chAIGPT.git)
+   cd chAIGPT
    ```
 
 2. **Set up the environment**
@@ -28,8 +27,7 @@ A Multimodal Retrieval-Augmented Generation (RAG) system that supports text, aud
 
 3. **Download Ollama models**
    ```sh
-   ollama pull deepseek-r1:1.5b
-   # or any other model you want to use
+   ollama pull <model>
    ```
 
 4. **Configure your settings**
@@ -42,7 +40,6 @@ A Multimodal Retrieval-Augmented Generation (RAG) system that supports text, aud
 
 ## Folder Structure
 - `src/` - Source code for chains, vectorstore, utils, etc.
-- `mrag/` - Python virtual environment (not tracked by git)
 - `maxresdefault.jpg` - Demo image for the app
 - `config.yaml` - Configuration file
 - `requirements.txt` - Python dependencies
@@ -55,7 +52,4 @@ A Multimodal Retrieval-Augmented Generation (RAG) system that supports text, aud
 
 ## License
 MIT
-
 ---
-
-*For more details, see the code and comments in each module.*
