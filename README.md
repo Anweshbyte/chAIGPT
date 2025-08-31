@@ -14,7 +14,7 @@ A Multimodal Retrieval-Augmented Generation (RAG) system that supports text, aud
 
 1. **Clone the repository**
    ```sh
-   git clone [<repo-url>](https://github.com/Anweshbyte/chAIGPT.git)
+   git clone https://github.com/Anweshbyte/chAIGPT.git
    cd chAIGPT
    ```
 
